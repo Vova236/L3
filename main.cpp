@@ -8,7 +8,7 @@ float sum (int k){
 	return(s);
 	}
 	float dob (int k){
-	float d=10.8*fabs(cos(k*k/1.13))*sin(k+1.4);
+	float d=10.8*fabs(cos(k*k/1.13))*sin(k+1.4-1);
 	return(d);
 	}
 int main() {
