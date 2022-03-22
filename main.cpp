@@ -4,7 +4,7 @@
 #include <fstream>
 using namespace std;
 float sum (int k){
-	float s=sin(abs(k))/0.1+9.4*sin(3*k-2.5);
+	float s=sin(abs(k))/0.1+9.4*sin(3*k-2.5+5);
 	return(s);
 	}
 	float dob (int k){
